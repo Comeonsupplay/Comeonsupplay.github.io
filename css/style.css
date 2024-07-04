@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.medsos{
+    padding: 10px 0;
+    background-color: aqua;
+
+}
+.medsos ul li{
+    display: inline-block;
+    color: aliceblue;
+    margin-right: 10px;
+}
+.container{
+    width: 99%;
+    margin: auto;
+}
+header{
+   
+}
+header h1{
+    
+    float: left;
+    padding: 15px 0;
+    color: aqua;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover{
+    background-color: aqua;
+    color: aliceblue;
+}
+.active{
+    background-color: aqua;
+    color: aliceblue;
+}
+.banner{
+    height: 50vh;
+    background-image: url(../img/banner.jpeg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+}
+.banner:after{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+}
+.banner h2{
+    color: black;
+    z-index: 5;
+    padding: 10px 15px;
+    border: 3px solid #000;
+}
+section{
+    padding: 5px 0;
+}
+section h3{
+    text-align: left;
+    padding: 20px 0;
+    color: aqua;
+}
+.about p{
+    color: darkcyan;
+    word-spacing: 2;
+    line-height: 25px;
+}
+.contact{
+    background-color: aqua;
+}
+footer{
+    padding: 30px 0;
+    background-color: aquamarine;
+    color: #fff;
+    text-align: center;
+}
+
